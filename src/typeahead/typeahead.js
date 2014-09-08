@@ -85,7 +85,7 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
       });
 
       //pop-up element used to display matches
-      var popUpEl = angular.element('<div typeahead-popup></div>');
+      var popUpEl = angular.element('<div typeahead-popup="typeahead-popup"></div>');
       popUpEl.attr({
         id: popupId,
         matches: 'matches',
